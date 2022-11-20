@@ -1,4 +1,4 @@
-# College-ERP
+# databus
 A college management system built using Django framework. It is designed for interactions between students and teachers. Features include attendance, marks and time table.
 
 ## Installation
@@ -11,7 +11,7 @@ pip install django
 
 ## Usage
 
-Go to the College-ERP folder and run
+Go to the databus folder and run
 
 ```bash
 python manage.py runserver
@@ -26,8 +26,8 @@ The login page is common for students and teachers.
 The username is their name and password for everyone is 'project123'.  
 
 Example usernames:  
-student- 'samarth'  
-teacher- 'trisila'  
+student- 'kaus', password- 12345
+teacher- 'trisila', password- project123  
 
 You can access the django admin page at **http://127.0.0.1:8000/admin** and login with username 'admin' and the above password.
 
